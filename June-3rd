@@ -1,8 +1,8 @@
-//Selena Tang & Madiha Fatima
-//Period 6
-//CS2 Final Project - Checkers
+// Selena Tang & Madiha Fatima
+// Period 6
+// CS2 Final Project - Checkers
 
-//This program will allow 2 players to play a game of Checkers
+// This program will allow 2 players to play a game of Checkers
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class CSFinalCheckers{
             System.out.println("Directions:\n~Checkers is a 2-player game (typically black vs red; this game will be black vs white). Each player has 12 pieces.\n~Pieces can only move in a forward diagonal direction, one space at a time\n\t(reference: in chess, a bishop can move along its diagonal as many spaces/rows as it'd like but in checkers, it can only be one space at a time unless...)");
             Thread.sleep(1000);
             System.out.println("\nHow to win:\n~Capture all of your opponent's pieces or block all of their pieces from moving. If your opponent's piece is in an adjacent space diagonal to and in front of one\n of your pieces and the next space in that diagonal is open, your piece MUST jump over the opponent's piece and 'kill' that piece.\n\tThis is called capturing a piece. Any time that you have a chance to capture a piece, you MUST capture it.");
-            //Note: we're gonna need error messages to show whether or not something can be capture b/c if it can, the player HAS to capture
+            //Note: we're gonna need error messages to show whether or not something can be captured b/c if it can, the player HAS to capture
             //Note: maybe show a demonstration of this would be cool? Should be added at the end tho once we actually figure out the board
             Thread.sleep(1000);
             System.out.println("~If you take a piece just to realize you are in position to take another piece right away, then you MUST take that piece as well, resulting in a double jump or\n 'double kill'. If you can capture another piece right away, you must do a triple jump, and so on.\n\tConsecutive jumps do not need to be in the same direction!");
