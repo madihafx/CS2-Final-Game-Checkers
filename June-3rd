@@ -18,7 +18,7 @@ public class CSFinalCheckers{
         //Directions
         System.out.println("Welcome to Checkers!\nPlease read these directions and indicate whether or not you understand the directions before playing.\n");
         while(direct==false){
-            System.out.println("Directions:\n~Checkers is a 2-player game (typically black vs red). Each player has 12 pieces.\n~Pieces can only move in a forward diagonal direction, one space at a time\n\t(reference: in chess, a bishop can move along its diagonal as many spaces/rows as it'd like but in checkers, it can only be one space at a time unless...)");
+            System.out.println("Directions:\n~Checkers is a 2-player game (typically black vs red; this game will be black vs white). Each player has 12 pieces.\n~Pieces can only move in a forward diagonal direction, one space at a time\n\t(reference: in chess, a bishop can move along its diagonal as many spaces/rows as it'd like but in checkers, it can only be one space at a time unless...)");
             Thread.sleep(1000);
             System.out.println("\nHow to win:\n~Capture all of your opponent's pieces or block all of their pieces from moving. If your opponent's piece is in an adjacent space diagonal to and in front of one\n of your pieces and the next space in that diagonal is open, your piece MUST jump over the opponent's piece and 'kill' that piece.\n\tThis is called capturing a piece. Any time that you have a chance to capture a piece, you MUST capture it.");
             //Note: we're gonna need error messages to show whether or not something can be capture b/c if it can, the player HAS to capture
