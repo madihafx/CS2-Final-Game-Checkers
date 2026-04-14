@@ -1,4 +1,4 @@
-// Selena Tang & Madiha Fatima
+// Madiha Fatima & Selena Tang
 // Period 6
 // CS2 Final Project - Checkers
 
